@@ -60,20 +60,4 @@
       </feature>
     </config-file>
   </platform>
-
-  <!-- wp8 -->
-  <platform name="wp8">
-    <source-file src="src/wp8/Base64ToGallery.cs"/>
-
-    <config-file parent="/*" target="config.xml">
-      <feature name="Base64ToGallery">
-        <param name="wp-package" value="Base64ToGallery"/>
-        <param name="onload" value="true"/>
-      </feature>
-    </config-file>
-
-    <config-file parent="/Deployment/App/Capabilities" target="Properties/WMAppManifest.xml">
-      <Capability Name="ID_CAP_MEDIALIB_PHOTO"/>
-    </config-file>
-  </platform>
 </plugin>
