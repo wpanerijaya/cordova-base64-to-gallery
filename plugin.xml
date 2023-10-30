@@ -45,19 +45,4 @@
 
     <header-file src="src/ios/Base64ToGallery.h"/>
   </platform>
-
-  <!-- android -->
-  <platform name="android">
-    <source-file src="src/android/Base64ToGallery.java" target-dir="src/it/nexxa/Base64ToGallery"/>
-
-    <config-file parent="/*" target="AndroidManifest.xml">
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    </config-file>
-
-    <config-file parent="/*" target="res/xml/config.xml">
-      <feature name="Base64ToGallery">
-        <param name="android-package" value="it.nexxa.base64ToGallery.Base64ToGallery"/>
-      </feature>
-    </config-file>
-  </platform>
 </plugin>
