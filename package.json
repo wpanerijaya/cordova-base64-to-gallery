@@ -28,9 +28,7 @@
   "cordova": {
     "id": "cordova-base64-to-gallery",
     "platforms": [
-      "ios",
-      "android",
-      "wp8"
+      "ios"
     ]
   },
   "keywords": [
